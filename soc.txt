@@ -1,0 +1,37 @@
+                                                      Assignment 1               urk18ec029 
+                                                      Soc Design 
+
+
+
+
+1.Sequential Processor architecture advantages Disadvantages
+Advantages:
+*sequential represents computations being executed sequentially as the name implies where each computation must complete before the next starts
+*The main advanatages of this computing model is that the required hardware is cheaper.
+Disadvantages:
+*The drawback being the time required to finish the task at hand when the number of computations grow. 
+
+2.Pipelined processor architecture advantages Disadvantages
+Advantages of Pipelining:
+*Instruction throughput increases.
+*Increase in the number of pipeline stages increases the number of instructions executed simultaneously.
+*Faster ALU can be designed when pipelining is used.
+*Pipelined CPU’s works at higher clock frequencies than the RAM.
+*Pipelining increases the overall performance of the CPU.
+Disadvantages of Pipelining:
+*Designing of the pipelined processor is complex.
+*Instruction latency increases in pipelined processors.
+*The throughput of a pipelined processor is difficult to predict.
+*The longer the pipeline, worse the problem of hazard for branch instructions.
+
+3.Compare Sequential Processor and Pipelined processor architecture
+The data logger has two processing modes:
+ sequential mode and pipeline mode.
+ In sequential mode, data logger tasks run more or less in sequence.
+ In pipeline mode, data logger tasks run more or less in parallel. 
+Mode information is included in a message returned by the data logger, which is displayed by software when the program is sent and compiled, and it is found in the Status Table, CompileResults field. The CRBasic Editor pre-compiler returns a similar message.
+
+The default mode of operation is pipeline mode. However, when the data logger program is compiled, the data logger analyzes the program instructions and automatically determines which mode to use. The data logger can be forced to run in either mode by placing the PipeLineMode or SequentialMode instruction at the beginning of the program.
+
+Pipelining is a technique where multiple instructions are overlapped during execution. Alternatively referred to as serial processing.
+sequential processing is a term used to describe the processing that occurs in the order that it is received.
